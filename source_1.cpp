@@ -3,6 +3,7 @@
 
 
 int main() {
+
     setlocale(LC_ALL, "Russian");
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
@@ -30,6 +31,6 @@ int main() {
     for (int i = 0; i < size; i++) {
         std::cout << arr[i] << ' ';
     }
-
+    delete[] arr;
     return 0;
 }
