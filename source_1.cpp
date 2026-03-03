@@ -11,7 +11,7 @@ int main() {
 
     std::cout << "Введите размер массива: ";
     std::cin >> size;
-    if (size < 0) {
+    if (size <= 0) {
         std::cout << "Введенное значение должно быть больше нуля";
 
         return 0;
